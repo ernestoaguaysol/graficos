@@ -9,12 +9,16 @@ import { ChartsModule } from 'ng2-charts';
 
 // components
 import { LineaComponent } from './components/linea/linea.component';
+import { BarraComponent } from './components/barra/barra.component';
+import { DonaComponent } from './components/dona/dona.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LineaComponent
+    LineaComponent,
+    BarraComponent,
+    DonaComponent
   ],
   imports: [
     BrowserModule,
